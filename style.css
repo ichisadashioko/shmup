@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    image-rendering: pixelated;
+}
+html, body{
+    background-color: #000000;
+    min-width:100%;
+}
+#enchant-stage{
+    position: relative !important;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+}
