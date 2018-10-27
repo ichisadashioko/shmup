@@ -96,7 +96,7 @@ function getSign(n) {
     return sign;
 }
 window.onload = function () {
-    game = new Game(1920, 1080);
+    game = new Game(320, 320);
     game.keybind(32, 'a');
     game.fps = 24;
     game.preload('spaceship.png', 'bears.png');
