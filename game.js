@@ -95,6 +95,7 @@ function getSign(n) {
     var sign = n / Math.abs(n);
     return sign;
 }
+
 window.onload = function () {
     game = new Game(320, 320);
     game.keybind(32, 'a');
@@ -109,7 +110,7 @@ window.onload = function () {
 
         var stage = new Group();
         var stage = new Group();
-        var player = new Sprite(16,16);
+        var player = new Sprite(16, 16);
         setPlayer();
 
         game.rootScene.addChild(stage);
